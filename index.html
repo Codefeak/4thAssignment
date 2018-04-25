@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Let's talk</title>
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header-container">
+        <h1>let's talk</h1>
+        <p>Think you have what it takes? Show us.</p>
+      </div>
+      <form class="main-form" action="index.html" method="post">
+          <section class="personal-info">
+            <h3>1.Personal Information</h3>
+            <hr>
+            <div class="name-container">
+              <div class="name-email">
+                <input type="text" name="Fullname" placeholder="Full Name*">
+                <input type="email" name="Email" placeholder="Email*">
+                <input type="email" name="Email" placeholder="Re-enter email*">
+              </div>
+              <input type="number" name="Phone number" placeholder="Phone#*">
+            </div>
+            <div class="address-container">
+              <input type="text" name="address" placeholder="Address*">
+              <div class="">
+                <input type="text" name="city" placeholder="City*">
+                <input type="text" name="state" placeholder="State">
+                <input type="text" name="Country/Region" placeholder="Country/Region*">
+                <input type="number" name="zip/postal code" placeholder="Zip/Postal code">
+              </div>
+              <input type="text" name="storyline" placeholder="How did you hear about us">
+            </div>
+          </section>
+          <section class="skills-location">
+            <h3>2.Skills and Location</h3>
+            <hr>
+            <p>Which is your primary design discipline?*</p>
+            <div class="radio-btn-container">
+              <input type="radio" id = "btn-1" name="primary design" value="Design Research"
+               checked> <label for="btn-1">Design Research</label>
+              <input type="radio" id = "btn-2" name="primary design" value="Visual Design">
+                <label for ="btn-2">Visual Design</label>
+              <input type="radio" id="btn-3" name="primary design" value="UX Design">
+              <label for="btn-3" >UX Design</label>
+              <input type="radio" id="btn-4" name="primary design" value="Front-end Dev">
+              <label for="btn-4">Front-end Dev</label>
+
+            </div>
+            <div class="column-container">
+              <div class="left-column">
+                <p>Do you have experience with any other disciplines?</p>
+                <div class="checkbox-container">
+                  <input type="checkbox" id ="v-design" name="experience"
+                  value="Visual Design">
+                  <label for="v-design">Visual design</label><br>
+                  <input type="checkbox" id="ux-design" name="experience"
+                  value="UX Design">
+                  <label for="ux-design">UX Design</label><br>
+                  <input type="checkbox" id="front-end" name="experience"
+                  value="Front-end Development">
+                  <label for="front-end">Front-end Development</label><br>
+                </div>
+              </div>
+              <div class="right-column">
+                <p>Where are you interested in working?*</p>
+                <p>You must be legally authorized to work without visa sponsorship
+                   in the location(s) you choose.</p>
+                <div class="checkbox-container">
+                  <input type="checkbox" id="austin-texas" name="interested"
+                  value="Austin,Texas">
+                  <label for="austin-texas">Austin Texas</label><br>
+                  <input type="checkbox" id="new-york" name="interested"
+                  value="New York, New York">
+                  <label for="new-york">New York, New York</label><br>
+                  <input type="checkbox" id="canada" name="interested"
+                  value="Toronto, Canada">
+                  <label for="canada">Toronto, Canada</label><br>
+                  <input type="checkbox" id="china" name="interested"
+                  value="Shanghai, China">
+                  <label for="china">Shanghai, China</label><br>
+                  <input type="checkbox" id="ireland" name="interested"
+                  value="Dublin, Ireland">
+                  <label for="ireland">Dublin, Ireland</label><br>
+                  <input type="checkbox" id="uk" name="interested"
+                  value="Hursley, United Kingdom">
+                  <label for="uk">Hursley, United Kingdom</label><br>
+                  <input type="checkbox" id="germany" name="interested"
+                  value="Boeblingen, Germany">
+                  <label for="germany">Boeblingen, Germany</label><br>
+                  <input type="checkbox" id="other-places" name="interested"
+                  value="Somewhere else">
+                  <label for="other-places">Somewhere else</label><br>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="portfolio-container">
+            <h3>3.Portfolio</h3>
+            <hr>
+            <p>Prove you're IBM's next great designer by showing us who you are.
+              What you've done. How you think. Tell us your story.</p>
+            <input type="url" name="portfolio link" placeholder="Portfolio link*">
+            <textarea name="others" rows="8" cols="80"
+              placeholder="Anythingelse (another link, availability, etc.)?"></textarea>
+          </section>
+          <input type="submit" name="button" value="Submit">
+      </form>
+
+    </div>
+
+  </body>
+</html>
