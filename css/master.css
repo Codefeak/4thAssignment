@@ -71,6 +71,14 @@ input{
   font-size: 0.87vw;
 }
 
+input:valid{
+  color:green;
+}
+
+input:invalid{
+  color:red;
+}
+
 .name-email{
   width: 27vw;
   display: flex;
