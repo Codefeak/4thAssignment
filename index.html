@@ -17,23 +17,21 @@
             <hr>
             <div class="name-container">
               <div class="name-email">
-                <input type="text" name="Fullname" placeholder="Full Name*"
-                minlength="4" maxlength="12" required>
-                <input type="email" name="Email" placeholder="Email*" required>
-                <input type="email" name="Email" placeholder="Re-enter email*" required>
+                <input id="full-name" type="text" name="Fullname" placeholder="Full Name*">
+                <input id="e-mail" type="text" name="Email" placeholder="Email*" >
+                <input id="re-email" type="text" name="Email" placeholder="Re-enter email*" >
               </div>
-              <input type="tel" name="Phone number" placeholder="Phone#*"
-              minlength="10" maxlength="10" required>
+              <input id="phone" type="text" name="Phone number" placeholder="Phone#*">
             </div>
             <div class="address-container">
-              <input type="text" name="address" placeholder="Address*" minlength="3" required>
+              <input id= "street-address" type="text" name="address" placeholder="Address*" >
               <div class="">
-                <input type="text" name="city" placeholder="City*" minlength="3" required>
-                <input type="text" name="state" placeholder="State" minlength="3">
-                <input type="text" name="Country/Region" placeholder="Country/Region*" minlength="3" required>
-                <input type="number" min ="0" max="999999" name="zip/postal code" placeholder="Zip/Postal code" minlength="5" maxlength="5">
+                <input id= "city" type="text" name="city" placeholder="City*" >
+                <input id= "state" type="text" name="state" placeholder="State" >
+                <input id="country" type="text" name="Country/Region" placeholder="Country/Region*">
+                <input id="zipCode" type="text"  name="zip/postal code" placeholder="Zip/Postal code">
               </div>
-              <input type="text" name="storyline" placeholder="How did you hear about us" minlength="5">
+              <input id="story" type="text" name="storyline" placeholder="How did you hear about us">
             </div>
           </section>
           <section class="skills-location">
@@ -42,7 +40,7 @@
             <p>Which is your primary design discipline?*</p>
             <div class="radio-btn-container">
               <input type="radio" id = "btn-1" name="primary design" value="Design Research"
-               checked> <label for="btn-1">Design Research</label>
+               > <label for="btn-1">Design Research</label>
               <input type="radio" id = "btn-2" name="primary design" value="Visual Design">
                 <label for ="btn-2">Visual Design</label>
               <input type="radio" id="btn-3" name="primary design" value="UX Design">
@@ -104,8 +102,7 @@
             <hr>
             <p>Prove you're IBM's next great designer by showing us who you are.
               What you've done. How you think. Tell us your story.</p>
-            <input type="url" name="portfolio link" placeholder="Portfolio link*"
-              minlength="5" maxlength="80">
+            <input id="url" type="text" name="portfolio link" placeholder="Portfolio link*">
             <textarea name="others" rows="8" cols="80"
               placeholder="Anythingelse (another link, availability, etc.)?"></textarea>
           </section>
@@ -113,6 +110,6 @@
       </form>
 
     </div>
-
+    <script type="text/javascript" src="js/master.js"></script>
   </body>
 </html>

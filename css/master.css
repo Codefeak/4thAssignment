@@ -71,19 +71,23 @@ input{
   font-size: 0.87vw;
 }
 
-input:valid{
+.valid{
+  background-color: transparent;
   color:green;
 }
 
-input:invalid{
-  color:red;
-}
+
 
 .name-email{
   width: 27vw;
   display: flex;
   flex-direction: column;
   margin-right: 1vw;
+}
+
+.invalid{
+ background-color:red;
+ color:white;
 }
 
 .address-container{
